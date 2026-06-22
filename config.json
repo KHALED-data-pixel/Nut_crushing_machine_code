@@ -1,0 +1,20 @@
+{
+    "camera_index": 0,
+    "camera_width": 640,
+    "camera_height": 640,
+    "mm_per_px": 0.3125,
+    "confidence_threshold": 0.6,
+    "iou_threshold": 0.5,
+    "serial_port": "COM3",
+    "serial_baud": 115200,
+    "serial_enabled": true,
+    "display_enabled": true,
+    "calib_file": "calib.npz",
+    "model_file": "best.onnx",
+    "class_names": ["argan", "almond", "peanut"],
+    "chessboard_cols": 9,
+    "chessboard_rows": 6,
+    "chessboard_square_mm": 10.0,
+    "num_calib_images": 20,
+    "capture_output_dir": "dataset/images/raw"
+}
